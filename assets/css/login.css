@@ -1,0 +1,52 @@
+@font-face {
+    font-family: vazir;
+    src: url("../fonts/Vazirmatn-Regular.woff2");
+}
+body{
+    font-family: vazir;
+    background-color: #eecfbe;
+}
+.login-form-container{
+    background-color: #07072c;
+    color: white;
+    margin: 35px auto;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+.login-image{
+    width: 30%;
+    border-radius: 50%;
+}
+.login-form{
+    border-bottom: 1px solid #b689b0;
+    text-align: right;
+    margin: 35px auto;
+}
+.login-form input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    margin:0 5px;
+}
+.login-btn{
+    background-color: #b689b0;
+    color: white;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.4s ease-in-out;
+}
+.login-btn:hover{
+    transform: translateY(-10px);
+}
+.login-link{
+    color: #b689b0;
+    text-decoration: none;
+}
+.err{
+    color: red;
+    font-weight: bold;
+}

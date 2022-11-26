@@ -1,0 +1,103 @@
+/* add fonts to project */
+@font-face {
+    font-family: vazir;
+    src: url("../fonts/Vazirmatn-Regular.woff2");
+}
+@font-face {
+    font-family: vazir-bold;
+    src: url("../fonts/Vazirmatn-Bold.woff2");
+}
+body{
+    font-family: vazir;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.active-item{
+    background-color: #232355;
+}
+.bold-header{
+    font-family: vazir-bold;
+}
+.right-menu{
+    font-family: vazir-bold;
+    background-color: #04042c;
+    height: 100vh;
+    border-radius: 25px 0 0  25px;
+    padding: 5px;
+}
+.menu-panel{
+    text-align: center;
+}
+.panel-user-image{
+    width: 25%;
+    border-radius: 50%;
+}
+.menu-panel h5{
+    margin: 20px;
+}
+.panel-username{
+    color: #888;
+}
+.menu-list-item{
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    margin: 15px;
+}
+.menu-list-item:hover{
+    background-color: #232355;
+}
+.menu-list-item a{
+    color: white;
+    display: block;
+}
+.exit-item{
+    background-color: red;
+}
+.left-part{
+    padding: 15px;
+}
+.my-polls-item{
+    border: 1px solid #ddd;
+    box-shadow: 0 0 8px #c8c8e9;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #232355;
+    font-family: vazir-bold;
+}
+.poll{
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px #c8c8e9;
+    border-radius: 10px;
+    padding: 20px;
+}
+.poll-item{
+    background-color: #04042c;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.poll-item:hover{
+    background-color: #232355;
+}
+.send-btn{
+    background-color: #04042c;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+}
+@media only screen and (max-width:1024px) {
+    .right-menu{
+        height: 100%;
+    }
+}
